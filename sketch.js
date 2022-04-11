@@ -22,6 +22,7 @@ function setup()
 {
 	//create a canvas for the robot
 	createCanvas(width, height);
+	background(30, 30, 30);
 	centerX = width / 2;
 	centerY = height / 2;
 	startTime = new Date().getTime() / 1000;
